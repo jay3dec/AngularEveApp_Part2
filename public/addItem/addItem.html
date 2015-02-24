@@ -1,0 +1,36 @@
+
+<div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+	    <li role="presentation" ><a href="#userHome">Home</a></li>
+            <li role="presentation" class="active" ><a href="#addItem">Add</a></li>
+            <li role="presentation" ><a href="#">Logout</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Home</h3>
+      </div>
+
+      
+	<div class="row">
+
+  <div class="col-md-8 col-sm-8 col-xs-8">
+  <input id="txtTitle" name="txtTitle" type="text" ng-model="title" placeholder="Enter Task" class="form-control input-md">
+  </div>
+
+  <div class="col-md-4 col-sm-4 col-xs-4">
+    <input id="singlebutton" name="singlebutton" class="btn btn-primary" ng-click="addItem(title)" value="Add Task" />
+  </div>
+
+
+</div>
+      
+
+      <footer class="footer">
+        <p>&copy; Company 2015</p>
+      </footer>
+
+    </div>
+
+
+
