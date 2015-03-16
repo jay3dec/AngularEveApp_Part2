@@ -74,4 +74,4 @@ app.post('/register',function(req,resp){
 });
 
 
-app.listen(3001)
+app.listen(3000)
