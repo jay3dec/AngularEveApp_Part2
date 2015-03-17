@@ -41,8 +41,8 @@ app.post('/register',function(req,resp){
       url: 'http://127.0.0.1:5000/user/',
       method: 'POST',
       auth: {
-        user: admin_username,
-        password: admin_password
+        user: 'admin',
+        password: 'admin'
       },
       formData: {
           firstname: _firstName,
